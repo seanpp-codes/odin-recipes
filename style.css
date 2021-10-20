@@ -1,0 +1,92 @@
+body {
+  background-color: black;
+  color: rgb(245, 239, 239);
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  height: auto;
+  width: 500px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'IM Fell English SC', serif;
+  font-weight: bolder;
+  
+}
+
+strong {
+  color: rgb(209, 15, 112);
+}
+
+a {
+  color: white;
+
+}
+
+li a {
+  font-size: 2rem;
+  font-family: 'IM Fell English SC', serif;
+}
+
+.recipe-list a {
+  font-weight: bolder;
+  text-decoration: none;
+  text-shadow: 2px 2px black;
+}
+
+.main-menu-container {
+  background-image: linear-gradient(to right, rgb(226, 152, 90), rgb(140, 140, 224));
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.recipe-list {
+  color: black;
+  width: 500px;
+  text-align: left;
+  margin: auto;
+}
+
+.description-container {
+  margin: auto;
+  width: 750px;
+}
+
+.ingredients-container {
+  background-color: rgb(226, 152, 90);
+  width: 500px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.spec-container {
+  background-color: rgb(133, 192, 138);
+  width: 500px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.prep-container {
+  background-color: rgb(147, 147, 229);
+  width: 500px;
+  margin: auto;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.footer-nav {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
